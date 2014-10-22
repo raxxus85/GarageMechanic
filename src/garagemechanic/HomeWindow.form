@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel2"/>
+      </Properties>
+    </Component>
+    <Menu class="javax.swing.JMenuBar" name="menuBar">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="fileMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="openGarageMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Open Garage"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="openGarageMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="exitMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exitMenuItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="helpMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Help"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="aboutItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="About"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aboutItemActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="menuBar"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="currentMechanicLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="currentMechanicTextField" min="-2" pref="143" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="currentCustomerLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="currentCustomerTextField" min="-2" pref="110" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="currentVehicleLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="currentVehicleTextField" min="-2" pref="186" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Component id="customersTabbedPanel" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="currentMechanicTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="currentMechanicLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="currentCustomerLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="currentCustomerTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="currentVehicleLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="currentVehicleTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Component id="customersTabbedPanel" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="currentMechanicTextField">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="currentMechanicTextField.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="currentMechanicLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Current Mechanic"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="customersTabbedPanel">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="mechanicsLabel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Mechanics">
+                <Property name="tabTitle" type="java.lang.String" value="Mechanics"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jSeparator1" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="selectMechanicLabel" max="32767" attributes="0"/>
+                                      <Component id="mechanicNameLabel" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="mechanicDescription" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jScrollPane1" alignment="0" min="-2" pref="305" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="mechanicComboBox" alignment="0" pref="140" max="32767" attributes="0"/>
+                                      <Component id="mechanicNameTextField" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="299" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="newMechanicNameLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                              <Component id="newMechanicNameTextField" min="-2" pref="132" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                              <Component id="addANewMechanicLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="addMechanicButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="jScrollPane3" min="-2" pref="273" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="mechanicComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="selectMechanicLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="mechanicNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="mechanicNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="mechanicDescription" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="122" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="58" max="32767" attributes="0"/>
+                      <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="addANewMechanicLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Component id="newMechanicNameTextField" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="34" max="32767" attributes="0"/>
+                              <Component id="newMechanicNameLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="addMechanicButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane3" min="-2" pref="150" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="mechanicNameTextField">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="mechanicNameTextField.setEditable(false);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="mechanicNameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Mechanic Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="mechanicComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.DefaultComboBoxModel(this.currentGarageMechanicProcessor.getMechanicNameArray())" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="mechanicComboBoxItemStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="selectMechanicLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Select Mechanic"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="mechanicDescriptionTextArea">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="mechanicDescriptionTextArea.setEditable(false);"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="mechanicDescription">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Mechanic Description"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="newMechanicNameTextField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="newMechanicNameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="New Mechanic Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="addMechanicButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add Mechanic"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addMechanicButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="addANewMechanicLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add a New Mechanic"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator1">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="New Mechanic Description"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="newMechanicDescriptionTextArea">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Customers">
+                <Property name="tabTitle" type="java.lang.String" value="Customers"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jSeparator2" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="customerDescriptionLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="selectCustomerLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="customerNameLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jScrollPane2" max="32767" attributes="0"/>
+                                  <Component id="customerComboBox" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="customerNameTextField" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="340" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="addCustomerButton" min="-2" max="-2" attributes="0"/>
+                                  <Component id="addNewCustomerLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="newCustomerNameLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="newCustomerNameTextField" min="-2" pref="128" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                      <Component id="newCustomerDescriptionLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="128" max="32767" attributes="0"/>
+                      <Component id="jScrollPane4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="selectCustomerLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="customerComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="customerNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="customerNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="customerDescriptionLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="addNewCustomerLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="newCustomerNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newCustomerNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newCustomerDescriptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="86" max="32767" attributes="0"/>
+                      <Component id="addCustomerButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="selectCustomerLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Select Customer"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="customerNameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Customer Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="customerDescriptionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Customer Description"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="customerComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.DefaultComboBoxModel(new String[] {&quot;&quot;})" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="customerComboBoxItemStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="customerNameTextField">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="customerNameTextField.setEditable(false);"/>
+              </AuxValues>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="customerDescriptionTextArea">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="customerDescriptionTextArea.setEditable(false);"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JSeparator" name="jSeparator2">
+            </Component>
+            <Component class="javax.swing.JLabel" name="addNewCustomerLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add New Customer"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="newCustomerNameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="New Customer Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="newCustomerDescriptionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="New Customer Description"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="newCustomerNameTextField">
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="newCustomerDescriptionTextArea">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="addCustomerButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add Customer"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addCustomerButtonActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Vehicles">
+                <Property name="tabTitle" type="java.lang.String" value="Vehicles"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                              <Component id="selectVehicleLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                              <Component id="vehicleComboBox" min="-2" pref="185" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="vehicleOdometerLabel" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="vehicleModelLabel" min="-2" max="-2" attributes="0"/>
+                                      <Component id="vehicleMakeLabel" min="-2" pref="97" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="vehicleYearLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="vehicleNotesLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="57" pref="57" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="vehicleOdometerTextField" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane5" pref="185" max="32767" attributes="0"/>
+                                  <Component id="vehicleYearTextField" alignment="0" pref="185" max="32767" attributes="0"/>
+                                  <Component id="vehicleModelTextField" alignment="0" pref="185" max="32767" attributes="0"/>
+                                  <Component id="vehicleMakeTextField" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="108" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
+                              <Component id="addVehicleLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="newVehicleMakeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="newVehicleModelLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="newVehicleYearLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="newVehicleMakeTextField" pref="185" max="32767" attributes="0"/>
+                                  <Component id="newVehicleModelTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="newVehicleYearTextField" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="newVehicleNotesLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="newVehicleOdometerLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="newVehicleOdometerTextField" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane8" pref="187" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="addVehicleButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="167" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="selectVehicleLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vehicleComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="addVehicleLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="vehicleMakeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vehicleMakeTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="newVehicleMakeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="newVehicleMakeTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="vehicleModelTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vehicleModelLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="newVehicleModelLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="newVehicleModelTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="vehicleYearTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vehicleYearLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="newVehicleYearLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="newVehicleYearTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="vehicleOdometerTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="vehicleOdometerLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="newVehicleOdometerLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="newVehicleOdometerTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="vehicleNotesLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane5" pref="167" max="32767" attributes="0"/>
+                          <Component id="newVehicleNotesLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane8" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="addVehicleButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="137" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="selectVehicleLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Select Vehicle"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="vehicleComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.DefaultComboBoxModel(new String[] {&quot;&quot;})" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="vehicleComboBoxItemStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="vehicleMakeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Vehicle Make"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="vehicleModelLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Vehicle Model"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="vehicleYearLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Vehicle Year"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="vehicleOdometerLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Vehicle Odometer"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="vehicleNotesLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Vehicle Notes"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="vehicleMakeTextField">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="vehicleMakeTextField.setEditable(false);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="vehicleModelTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="vehicleModelTextFieldActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="vehicleModelTextField.setEditable(false);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="vehicleYearTextField">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="vehicleYearTextField.setEditable(false);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="vehicleOdometerTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="vehicleOdometerTextFieldActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="vehicleOdometerTextField.setEditable(false);"/>
+              </AuxValues>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="vehicleNotesTextArea">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="addVehicleLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add Vehicle"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="newVehicleMakeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="New Vehicle Make"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="newVehicleModelLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="New Vehicle Model"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="newVehicleYearLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="New Vehicle Year"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="newVehicleOdometerLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="New Vehicle Odometer"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="newVehicleMakeTextField">
+            </Component>
+            <Component class="javax.swing.JTextField" name="newVehicleModelTextField">
+            </Component>
+            <Component class="javax.swing.JTextField" name="newVehicleYearTextField">
+            </Component>
+            <Component class="javax.swing.JTextField" name="newVehicleOdometerTextField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="newVehicleNotesLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="New Vehicle Notes"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane8">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="newVehicleNotesTextArea">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="addVehicleButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add Vehicle"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addVehicleButtonActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Vehicle Maintenance Actions">
+                <Property name="tabTitle" type="java.lang.String" value="Vehicle Maintenance Actions"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="maintenanceActionList" min="-2" pref="793" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jSeparator4" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="384" max="-2" attributes="0"/>
+                              <Component id="maintenanceActionsLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                              <Component id="performMaintenanceActionLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="currenVehicleOdometer" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="maintenanceActionNotesLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="maintenanceActionTypeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jScrollPane7" max="32767" attributes="0"/>
+                                  <Component id="currentVehicleOdometerTextField" max="32767" attributes="0"/>
+                                  <Component id="useMaintenanceActionTypeComboBox" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                              <Component id="addMaintenanceActionButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="368" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="maintenanceActionsLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="maintenanceActionList" min="-2" pref="225" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSeparator4" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="performMaintenanceActionLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="maintenanceActionTypeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="useMaintenanceActionTypeComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="currenVehicleOdometer" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="currentVehicleOdometerTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="maintenanceActionNotesLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane7" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="addMaintenanceActionButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="19" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="maintenanceActionsLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Maintenance Actions"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.List" name="maintenanceActionList">
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator4">
+            </Component>
+            <Component class="javax.swing.JLabel" name="performMaintenanceActionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Perform Maintenance Action"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="maintenanceActionTypeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Maintenance Action Type"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="currenVehicleOdometer">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Current Vehicle Odometer"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="maintenanceActionNotesLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Maintenance Action Notes"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="currentVehicleOdometerTextField">
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane7">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="maintenanceActionNotesTextArea">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JComboBox" name="useMaintenanceActionTypeComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.DefaultComboBoxModel(new String[] { &quot;&quot; })" type="code"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="addMaintenanceActionButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add Maintenance Action to Vehicle"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addMaintenanceActionButtonActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel5">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Maintenance Action Types">
+                <Property name="tabTitle" type="java.lang.String" value="Maintenance Action Types"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jSeparator3" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="maintenanceTypeDescriptionLabel" min="-2" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                                                  <Component id="selectMaintenaceTypeLabel" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                                                  <Component id="recommendedIntervalLabel" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jScrollPane6" max="32767" attributes="0"/>
+                                          <Component id="recommendedIntervalTextField" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="maintenanceTypeComboBox" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="newMaintenanceActionTypeNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="newMaintenanceTypeDescriptionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="newRecommendedIntervalLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="newMaintenanceTypeIntervalTextField" max="32767" attributes="0"/>
+                                              <Component id="jScrollPane9" pref="183" max="32767" attributes="0"/>
+                                              <Component id="newMaintenanceTypeNameTextField" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="296" max="-2" attributes="0"/>
+                                          <Component id="addMaintenanceActionTypeLabel" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="296" max="-2" attributes="0"/>
+                                      <Component id="addMaintenanceTypeButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="342" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="selectMaintenaceTypeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="maintenanceTypeComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="recommendedIntervalLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="recommendedIntervalTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="maintenanceTypeDescriptionLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane6" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jSeparator3" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="addMaintenanceActionTypeLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="newMaintenanceActionTypeNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="newMaintenanceTypeNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="newRecommendedIntervalLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="newMaintenanceTypeIntervalTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="newMaintenanceTypeDescriptionLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane9" min="-2" pref="106" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="addMaintenanceTypeButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="50" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="selectMaintenaceTypeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Select Maintenance Action Type"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="maintenanceTypeComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.DefaultComboBoxModel(new String[] { &quot;&quot; })" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="maintenanceTypeComboBoxItemStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="recommendedIntervalLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Recommended Interval"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="recommendedIntervalTextField">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="recommendedIntervalTextField.setEditable(false);"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="maintenanceTypeDescriptionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Maintenance Type Description"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="maintenanceTypeDescriptionTextArea">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="maintenanceTypeDescriptionTextArea.setEditable(false);"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JSeparator" name="jSeparator3">
+            </Component>
+            <Component class="javax.swing.JLabel" name="addMaintenanceActionTypeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add Maintenance Action Type"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="newMaintenanceActionTypeNameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="New Maintenance Action Type Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="newRecommendedIntervalLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Recommended Interval"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="newMaintenanceTypeDescriptionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="New Maintenance Type Description"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="newMaintenanceTypeNameTextField">
+            </Component>
+            <Component class="javax.swing.JTextField" name="newMaintenanceTypeIntervalTextField">
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane9">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="newMaintenanceTypeDescriptionTextArea">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="addMaintenanceTypeButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add Maintenance Action Type"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addMaintenanceTypeButtonActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="currentCustomerLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Current Customer"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="currentCustomerTextField">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="currentCustomerTextField.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="currentVehicleLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Current Vehicle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="currentVehicleTextField">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="currentVehicleTextField.setEditable(false);"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
