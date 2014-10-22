@@ -94,9 +94,6 @@ public class GarageMechanicProcessor {
         while(passwordAttempts < 3){
             String message = "What is this database's password?";
             userPasswordAttempt = (String)JOptionPane.showInputDialog(currentHomeWindow, message);
-            //if(userPasswordAttempt!=null){
-            //    this.promptUserForDatabasePassword();
-            //}
             if(userPasswordAttempt!=null && !userPasswordAttempt.isEmpty()){
                 if(userPasswordAttempt.equals(password)){
                     userGuessedPassword = true;
